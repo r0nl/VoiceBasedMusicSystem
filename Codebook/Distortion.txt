@@ -1,0 +1,6 @@
+Size 1:- Distortion: 114.575491
+Size 2:- Distortion: 84.306437
+Size 4:- Distortion: 67.814505
+Size 8:- Distortion: 54.181520
+Size 16:- Distortion: 45.433575
+Size 32:- Distortion: 37.832038

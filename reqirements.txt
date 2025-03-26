@@ -1,0 +1,25 @@
+# Compiler Requirements
+Visual Studio 2019 or later, or GCC with MinGW  # For C++ compilation
+
+# Windows SDK
+# Ensure that the Windows SDK is installed for access to Windows API libraries (e.g., winmm.lib for multimedia functions)
+
+# Required Libraries and Packages
+stdlib         # Standard library for general functions
+stdio          # Standard I/O functions
+math           # Mathematical functions (e.g., for floating-point precision calculations)
+float.h        # Limits for floating-point types (e.g., DBL_MAX)
+direct.h       # Directory management functions (e.g., _mkdir for folder operations)
+windows.h      # Core Windows API for multimedia and file operations
+mmsystem.h     # Windows Multimedia API, required for recording and playback
+conio.h        # Console I/O for non-standard functions like _getch()
+thread         # Multithreading library for managing concurrent tasks
+iostream       # Standard C++ input/output stream
+string         # Standard C++ string handling
+vector         # Standard C++ vector for dynamic arrays
+locale         # Locale functions, often used with codecvt for encoding conversions
+codecvt        # Encoding conversion, specifically for std::wstring_convert
+
+# Linker Settings
+# Link the Windows multimedia library for sound recording and playback
+#pragma comment(lib, "winmm.lib")
